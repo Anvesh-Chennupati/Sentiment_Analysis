@@ -1,0 +1,44 @@
+import emoji
+import re
+
+emojiMapping = {}
+emojiMapping["U+1F493"] = 1
+emojiMapping["U+1F601"] = 0.6 #😁
+emojiMapping["U+1F602"] = 1 #😂
+emojiMapping["U+1F603"] = 0.4 #😃
+emojiMapping["U+1F604"] = 0.8 #😄
+emojiMapping["U+1F605"] = -0.2 #😅
+emojiMapping["U+1F606"] = 1 #😆
+emojiMapping["U+1F609"] = 0.1 #😉
+emojiMapping["U+1F60A"] = 1 #😊
+emojiMapping["U+1F60B"] = 0.9 #😋
+emojiMapping["U+1F60C"] = 1 #😌 #relived face
+emojiMapping["U+1F60D"] = 1 #😍
+emojiMapping["U+1F60F"] = 0 #😏 #smirking
+emojiMapping["U+1F612"] = 0 #😒
+emojiMapping["U+1F613"] = -0.8 #😓
+emojiMapping["U+1F614"] = -1 #😔
+emojiMapping["U+1F616"] = -1 #😖
+emojiMapping["U+1F618"] = 1 #😘
+emojiMapping["U+1F61A"] = 1 #😚
+emojiMapping["U+1F61C"] = 0.5 #😜
+emojiMapping["U+1F61D"] = 0.5 #😝
+emojiMapping["U+1F61E"] = -0.5 #😞
+emojiMapping["U+1F620"] = -1 #😠
+emojiMapping["U+1F621"] = -1 #😡
+emojiMapping["U+1F621"] = -0.7 #😢
+emojiMapping["U+1F623"] = -0.9 #😣
+emojiMapping["U+1F624"] = -0.3 #😤
+emojiMapping["U+1F625"] = -0.3 #😥
+emojiMapping["U+1F628"] = 0 #😨
+emojiMapping["U+1F629"] = -0.3 #😩
+emojiMapping["U+1F62A"] = -0.2 #😪
+emojiMapping["U+1F62B"] = -0.4 #😫
+emojiMapping["U+1F62D"] = -1 #😭
+emojiMapping["U+1F630"] = -0.3 #😰
+emojiMapping["U+1F631"] = 0 #😱
+emojiMapping["U+1F632"] = 0 #😲
+emojiMapping["U+1F633"] = 0 #😳
+emojiMapping["U+1F635"] = 0 #😵
+emojiMapping["U+1F637"] = 0#😷
+emojiMapping["U+1F495"] = 1 #heart
